@@ -393,7 +393,8 @@ sudo pacman -S dconf-editor gnome-browser-connector gnome-firmware gvfs-smb seah
 Install the `adw` GTK theme and the MoreWaita icon theme:
 
 ```sh
-yay -S adw-gtk-theme morewaita-icon-theme
+sudo pacman -S adw-gtk-theme
+yay -S morewaita-icon-theme
 ```
 
 ### Qt
@@ -435,14 +436,15 @@ rustup default stable
 Configure `clangd` to disable unsupported options, enable strict include checking, etc.:
 
 ```sh
+mkdir ~/.config/clangd
 rsync --progress ~/projects/archlinux-config/conf/clangd.yaml ~/.config/clangd/config.yaml
 ```
 
 Install development tools:
 
 ```sh
-sudo pacman -S antlr4 boost doxygen gdb glfw-wayland graphviz openimageio openmp openmpi ospray p7zip paraview perf sshfs tbb textpieces unrar
-yay -S hotspot speedcrunch
+sudo pacman -S antlr4 boost doxygen gdb glfw-wayland graphviz openimageio openmp openmpi ospray p7zip paraview perf speedcrunch sshfs tbb textpieces unrar
+yay -S hotspot
 ```
 
 Install Python libraries:
@@ -502,7 +504,7 @@ for EXTENSION in njpwerner.autodocstring \
                  redhat.vscode-yaml
   code --install-extension $EXTENSION
 end
-rsync --progress ~/projects/archlinux-config/conf/settings.json "~/.config/Code - OSS/User/settings.json"
+rsync --progress ~/projects/archlinux-config/conf/settings.json ~/.config/Code\ -\ OSS/User/settings.json
 ```
 
 Install Electron configuration files for Wayland:
@@ -523,7 +525,7 @@ sudo pacman -S texlive texlive-lang biber
 Install Zathura including MuPDF support:
 
 ```sh
-zathura zathura-pdf-mupdf
+sudo pacman -S zathura zathura-pdf-mupdf
 ```
 
 Install other document tools:
@@ -537,7 +539,7 @@ sudo pacman -S img2pdf libreoffice-fresh pandoc
 Install some media tools, including Inkscape and VLC:
 
 ```sh
-sudo pacman -S gst-libav inkscape vlc
+sudo pacman -S gst-libav inkscape mpv vlc
 ```
 
 ### System Administration
