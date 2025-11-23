@@ -1,0 +1,32 @@
+If:
+  PathMatch: [.*\.cc, .*\.cpp, .*\.hh, .*\.hpp, .*\.ipp]
+CompileFlags:
+  Add: [-std=c++23]
+  Remove:
+    - -fconcepts-diagnostics-depth=*
+    - -fext-numeric-literals
+    - -fno-lifetime-dse
+    - -fabi-version=*
+    - -fabi-compat-version=0
+    - -mpreferred-stack-boundary=3
+    - -mindirect-branch=thunk-extern
+    - -mindirect-branch-register
+    - -fno-allow-store-data-races
+    - -fno-ipa-cp-clone
+    - -fno-partial-inlining
+    - -fmin-function-alignment=64
+    - -fconserve-stack
+Diagnostics:
+  MissingIncludes: Strict
+  UnusedIncludes: Strict
+  Includes:
+    IgnoreHeader:
+      - boost/.*
+      - Eigen/.*
+      - ginkgo/.*
+      - mpi_proto\.h
+      - OpenImageIO/.*
+      - ospray/.*
+      - pybind11/.*
+      - rkcommon/.*
+      - q(dir|list|messagebox|object|widget)\.h

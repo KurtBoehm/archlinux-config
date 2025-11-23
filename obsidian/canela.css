@@ -1,0 +1,18 @@
+body,
+.markdown-rendered {
+  font-variant: common-ligatures lining-nums;
+  --h1-variant: lining-nums small-caps;
+  --h2-variant: lining-nums small-caps;
+  --h3-variant: lining-nums;
+  --h4-variant: lining-nums;
+  --h5-variant: lining-nums;
+  --h6-variant: lining-nums;
+}
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.cm-s-obsidian
+  .cm-inline-code.cm-formatting
+  ~ .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code,
+.markdown-rendered pre {
+  font-size: 89%;
+}

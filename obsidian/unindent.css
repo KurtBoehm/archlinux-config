@@ -1,0 +1,10 @@
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code {
+  padding: unset;
+}
+.markdown-source-view.mod-cm6 .cm-indent::before {
+  border-inline-end: unset;
+}
+.markdown-source-view.mod-cm6 .cm-indent {
+  min-width: unset;
+}

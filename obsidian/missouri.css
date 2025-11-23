@@ -1,0 +1,62 @@
+body,
+.markdown-rendered {
+  --h1-font: "Missouri Textura"; /*Missouri Thread Pullers Textura*/
+  --h1-weight: normal;
+  --h2-font: "Missouri Textura";
+  --h2-weight: normal;
+  --h3-font: "Missouri Textura";
+  --h3-weight: normal;
+  --h4-font: "Missouri Textura";
+  --h4-weight: normal;
+  --font-interface: var(--font-text);
+  --font-text: "Missouri Humanist", "Garamond Libre", "Noto Serif",
+    "Source Serif 4", "serif";
+}
+h3,
+.HyperMD-header-3 {
+  font-feature-settings: "ss01";
+}
+h4,
+.HyperMD-header-4 {
+  font-feature-settings: "ss01";
+}
+em,
+.cm-em {
+  font-feature-settings: "ss01";
+}
+strong,
+.cm-strong {
+  font-feature-settings: "ss01";
+}
+.cm-strong.cm-em {
+  font-feature-settings: "ss01";
+}
+/*
+.task-list-item {
+  font-family: "Missouri Cursive";
+}
+*/
+.nav-folder.mod-root > .nav-folder-title,
+.workspace-drawer-header-name-text {
+  font-family: "Missouri Textura";
+}
+.suggestion-item.mod-complex .suggestion-highlight,
+.is-phone .vertical-tab-header-group-title,
+.is-phone .setting-item-heading .setting-item-name {
+  color: var(--color-blue);
+  font-weight: normal;
+}
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
+  padding: unset;
+}
+mjx-math {
+  font-size: 112% !important;
+}
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.cm-s-obsidian
+  .cm-inline-code.cm-formatting
+  ~ .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code,
+.markdown-rendered pre {
+  font-size: 89%;
+}

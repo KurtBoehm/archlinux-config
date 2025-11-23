@@ -1,0 +1,127 @@
+{
+  "[cpp]": {
+    "editor.rulers": [100]
+  },
+  "[latex]": {
+    "editor.wordWrap": "on"
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.rulers": [88],
+    "editor.tabSize": 4
+  },
+  "basedpyright.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedCallResult": "hint",
+    "reportImplicitRelativeImport": "hint"
+  },
+  "chat.disableAIFeatures": true,
+  "C/C++ Include Guard.Auto Update Include Guard": false,
+  "C/C++ Include Guard.Comment Style": "Line",
+  "C/C++ Include Guard.Macro Type": "Filepath",
+  "C/C++ Include Guard.Remove Extension": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "diffEditor.renderSideBySide": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Iosevka Mono, Ubuntu Sans Mono, Cascadia Mono NF, Jetbrains Mono NL, monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.minimap.renderCharacters": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "×": true,
+    "’": true
+  },
+  "files.associations": {
+    "*.sty": "latex-expl3",
+    "*.wrap": "ini",
+    ".clang-tidy": "yaml"
+  },
+  "files.simpleDialog.enable": true,
+  "git.confirmSync": false,
+  "latex-workshop.formatting.latex": "tex-fmt",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "ltex.additionalRules.motherTongue": "de-DE",
+  "ltex.language": "en-GB",
+  "ltex.latex.commands": {
+    "\\cite{}": "dummy",
+    "\\cite[]{}": "dummy",
+    "\\DeclareLanguageMapping{}{}": "ignore",
+    "\\documentclass[]{}": "ignore",
+    "\\footnote{}": "ignore",
+    "\\footciteconf{}": "ignore",
+    "\\label{}": "ignore",
+    "\\latin{}": "dummy",
+    "\\latin*{}": "dummy",
+    "\\lstinline{}": "dummy",
+    "\\lstinputlisting[]{}": "ignore",
+    "\\NewDocumentCommand{}{}{}": "ignore",
+    "\\NewDocumentEnvironment{}{}{}{}": "ignore",
+    "\\NewExpandableDocumentCommand{}{}{}": "ignore",
+    "\\NewFun{}{}": "ignore",
+    "\\pgfdeclareverticalshading{}{}{}": "ignore",
+    "\\pgfplotscreateplotcyclelist{}{}": "ignore",
+    "\\pgfplotsset{}": "ignore",
+    "\\SI{}{}": "dummy",
+    "\\textcode{}": "dummy",
+    "\\texttt{}": "dummy",
+    "\\SemCoAnalyze{}{}{}{}": "ignore",
+    "\\setbeamertemplate{}": "ignore",
+    "\\UseTblrLibrary{}": "ignore"
+  },
+  "ltex.latex.environments": {
+    "AbstractAlgEnv": "ignore",
+    "CppEnv": "ignore",
+    "SemCoMiniEnv": "ignore",
+    "lstlisting": "ignore",
+    "solution": "ignore",
+    "verbatim": "ignore"
+  },
+  "mesonbuild.buildFolder": "build",
+  "mesonbuild.downloadLanguageServer": true,
+  "mesonbuild.formatting.enabled": true,
+  "mesonbuild.formatting.muonConfig": "/home/gildor/tools/muon-fmt.ini",
+  "mesonbuild.linter.muon.enabled": true,
+  "mesonbuild.mesonlsp.others.ignoreDiagnosticsFromSubprojects": true,
+  "python.languageServer": "None",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.smoothScrolling": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "todo",
+    "ToDo",
+    "ToMeasure"
+  ],
+  //                        (//|#|%|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)
+  "todo-tree.regex.regex": "(//|#|%|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)|\\\\($TAGS)\\*?\\{([^}]*)\\}|(begin\\{ToDoEnv\\})",
+  "typescript.surveys.enabled": false,
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "Picta Dark Extended",
+  "workbench.preferredLightColorTheme": "Picta Light Extended"
+}

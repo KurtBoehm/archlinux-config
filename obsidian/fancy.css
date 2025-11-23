@@ -1,0 +1,55 @@
+body,
+.markdown-rendered {
+  --code-background: unset;
+  --code-normal: unset;
+  --code-radius: unset;
+  --code-size: unset;
+  --file-line-width: 1000px;
+  --table-header-weight: normal;
+  --table-header-color: var(--color-purple);
+  --vault-name-font-weight: normal;
+  --vault-name-color: var(--color-accent);
+}
+em,
+.cm-em {
+  color: var(--color-green); /*#2ec27e*/
+  font-style: normal;
+  --code-normal: var(--color-green);
+}
+strong,
+.cm-strong {
+  color: var(--color-red); /*#ed333b*/
+  font-weight: normal;
+  --code-normal: var(--color-red);
+}
+.cm-strong.cm-em {
+  color: var(--color-yellow);
+  font-style: normal;
+  font-weight: normal;
+  --code-normal: var(--color-yellow);
+}
+.nav-folder.mod-root > .nav-folder-title,
+.workspace-drawer-header-name-text {
+  color: var(--vault-name-color);
+  font-weight: normal;
+}
+.suggestion-item.mod-complex .suggestion-highlight,
+.is-phone .vertical-tab-header-group-title,
+.is-phone .setting-item-heading .setting-item-name {
+  color: var(--color-blue);
+  font-weight: normal;
+}
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.cm-s-obsidian
+  .cm-inline-code.cm-formatting
+  ~ .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code,
+.markdown-rendered pre {
+  padding: unset;
+}
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  padding-inline-start: unset;
+}
+.MJX-TEX {
+  font-size: 115%;
+}

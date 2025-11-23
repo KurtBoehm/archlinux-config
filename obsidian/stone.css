@@ -1,0 +1,8 @@
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.cm-s-obsidian
+  .cm-inline-code.cm-formatting
+  ~ .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code,
+.markdown-rendered pre {
+  font-size: 89%;
+}
