@@ -8,11 +8,7 @@ body,
   --h5-variant: lining-nums;
   --h6-variant: lining-nums;
 }
-.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
-.cm-s-obsidian
-  .cm-inline-code.cm-formatting
-  ~ .cm-inline-code:not(.cm-formatting),
-.markdown-rendered code,
-.markdown-rendered pre {
-  font-size: 89%;
+.cm-formatting-list-ul,
+.cm-formatting-list-ol {
+  font-variant-numeric: tabular-nums lining-nums;
 }

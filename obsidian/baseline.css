@@ -1,0 +1,17 @@
+body,
+.markdown-rendered {
+  --file-line-width: 1000px;
+  --code-size: var(--font-text-size);
+  --code-background: unset;
+}
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.cm-s-obsidian
+  .cm-inline-code.cm-formatting
+  ~ .cm-inline-code:not(.cm-formatting),
+.markdown-rendered code,
+.markdown-rendered pre {
+  padding: unset;
+}
+.MJX-TEX {
+  font-size: 120%;
+}
